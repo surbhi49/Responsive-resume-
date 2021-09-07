@@ -1,0 +1,104 @@
+
+
+/**
+* @authur : Surbi
+* @description: i have used margin form 4 corners at size of zero
+*/
+div.image{ display: flex;
+    align-items: center;
+    padding: 10px;
+     width:50%;}
+img{ border-radius: 50%;
+margin:10px;}
+
+div.name{ display:inline-block;
+          position:absolute;
+          margin: 5px;
+         font-family: sans-serif;}    
+
+ .name span{font-size:15px;
+            font-weight: bold;
+            font-style:italic ;
+        }
+ div.box{ display:flex;
+     align-items: center;
+        height: 30%;
+        margin:0;
+        background-color:#478778;
+    color: cornsilk;}
+
+ ul li { list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin:5px;
+   font-size:16px ;}
+    
+ul li i{ margin-right: 5px;
+    padding:5px;
+    font-size:30px;
+
+   }
+  
+
+#row{ display: flex;
+       flex-wrap: wrap;
+     }
+div.column{ display: flex;
+            width: 50%;
+            height: 70%;
+              }
+div.first{ margin-left:20px;
+          font-family: sans-serif;
+         }
+    
+div.lower-txt{ display: inline-flex;
+    font-style: italic;
+    font-size: 15px;
+               } 
+            
+        
+             /*
+               .mt-0{
+                margin-top: 0;
+            }
+            .mt-1{
+                margin-top: .5em;
+            }
+            .mt-2{
+                margin-top: 1em;
+            }
+            
+            .ml-0{ 
+                margin-left:0;
+            }
+            .ml-1{ 
+                margin-left:.5em;
+            }
+            .ml-2{ 
+                margin-left:1em;
+            }
+            .bg-0{ background-color: darkcyan;}
+            .bg-1{ background-color:black;}
+            .bg-2{ background-color: darkgreen;}
+            .width-0{
+                width: 100%;
+             }
+             .width-1{
+                 width:70%;
+             }
+             .width-2{width:50%;}
+            @media screen  and (max-width: 1024px) and (min-width: 746px){
+                    
+                .bg-1{ background-color:black;}
+                .width-0{width: 100%;}
+              
+            }
+            @media  screen and ( max-width:746) and (min-width:435px){
+                .bg-2{ background-color: darkgreen;}
+                 .width-1{ width: 70%;}
+            }
+            @media screen and  (max-width:435px){
+                 .bg-3{ background-color: blue;}
+                  .width-3{ width:50%;}
+            } 
+            */
