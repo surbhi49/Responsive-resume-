@@ -1,62 +1,352 @@
 
 
-/**
-* @authur : Surbi
-* @description: i have used margin form 4 corners at size of zero
-*/
-div.image{ display: flex;
-    align-items: center;
+main{ padding:1em;
+   font-family:sans-serif;
+   overflow: hidden;}
+/*image & name part start*/
+div.image{ 
     padding: 10px;
-     width:50%;}
-img{ border-radius: 50%;
-margin:10px;}
+     width:100%;
+     margin-bottom: 2em;
+    }
 
-div.name{ display:inline-block;
-          position:absolute;
-          margin: 5px;
-         font-family: sans-serif;}    
+img{ 
+    border-radius: 50%;
+     margin:10px;
+    }
 
- .name span{font-size:15px;
-            font-weight: bold;
-            font-style:italic ;
-        }
- div.box{ display:flex;
-     align-items: center;
-        height: 30%;
-        margin:0;
-        background-color:#478778;
-    color: cornsilk;}
-
- ul li { list-style-type: none;
-    text-decoration: none;
-    font-family: sans-serif;
+div.name{ 
+    display:inline-block;
+    position:absolute;
+    top:2%;
     margin:5px;
-   font-size:16px ;}
-    
-ul li i{ margin-right: 5px;
-    padding:5px;
-    font-size:30px;
-
-   }
-  
-
-#row{ display: flex;
-       flex-wrap: wrap;
-     }
-div.column{ display: flex;
-            width: 50%;
-            height: 70%;
-              }
-div.first{ margin-left:20px;
-          font-family: sans-serif;
-         }
-    
-div.lower-txt{ display: inline-flex;
-    font-style: italic;
-    font-size: 15px;
-               } 
-            
         
+         }    
+  .name h1{ 
+      font-size:40px;
+    }
+
+ .name h3{
+          font-size:25px;
+           font-weight: 600;
+            font-weight:lighter;
+            font-style:italic;
+            margin-bottom:-5px;
+        
+ }
+ div.name p{ 
+     text-align: justify;
+    font-size: 17px;
+     padding-left:5px;
+    }
+   /*image & name part end*/
+   /*Contact part start*/
+ div.contact{  
+      display: flex;
+     flex-direction: column;
+    background-color:#36454F ;
+     color:white
+    }
+ 
+div.contact ul{display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+    height:100px;
+    align-items: center;
+    font-size: 20px;
+     list-style-type: none;
+
+ } 
+div.contact ul li{ 
+       margin:10px;
+        }
+
+.contact  ul li i{ 
+     margin-right:10px;
+     font-size:20px;
+    }
+    /*contact part end*/
+    /*info part start*/
+               
+div.column h2{ 
+     margin-top: 10;  
+      }
+div.lower-txt p{
+      margin-top:-8px;
+      margin-bottom:2em;
+     font-style: italic;
+    }
+    /*info part end*/
+/* right side css start*/
+ div.right{  
+     float: right;
+     padding-right:6%;
+     margin-top:15px;
+            }
+ .skill h1 { 
+     font-size: 2em;
+     margin-top:10px;
+     margin-bottom:0;
+            } 
+    div.html{
+   font-size: 20px;
+    width: 100px;
+    height: 23px;
+    background-color: #808080bd;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 10px;}
+
+    div.css{font-size: 20px;
+    width: 100px;
+    height: 23px;
+    background-color: #808080bd;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;}
+
+  
+    div.c{
+    font-size: 20px;
+    width: 100px;
+    background-color: #808080bd;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;}
+
+   div.News{ font-size: 20px;
+    width: 100px;
+    height: 50px;
+    background-color: #808080bd;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;}
+     div.project .pro1{ margin:10px;
+                         font-size:20px;
+                          font-weight: 500;
+                           
+                        }
+
+    
+    div.intrest .read{ font-size: 20px;
+        width: 100px;
+        height: 20px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 8px;
+         background-color:grey;
+         color: white;
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 10px;}
+
+        div.code{
+        font-size: 20px;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: gray;
+    color:white;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;}
+
+    div.music{
+    font-size: 20px;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: gray;
+    color:white;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;}
+
+    div.paint{
+    font-size: 20px;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+     background-color:grey;
+     color: white;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;}
+ /* Right side css end*/
+/*media query is start*/
+                     
+ @media  screen and (max-width:900) and (min-width:767px) {
+
+           
+@media  screen and (max-width:768px) and (min-width:420px) {
+    
+    div.name{
+             display:inline-block;
+             position:absolute;
+             top:2%;
+             margin:5px;
+            }  
+
+    img {
+        border-radius: 50%;
+         margin: 10px;
+        width: 120px;
+        height: 120px;
+      }
+
+   .name h1{  
+          font-size:30px ;
+         margin-bottom:0;
+                               
+     }
+  div.name h3{
+          font-size:20px;
+         color: gray;
+        }
+ div .name p{
+      font-size:10px;
+      margin-bottom:20px;
+    }
+    /*Image & name part end*/
+    /* Box part start*/       
+ div.contact{
+      display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+    width: 100%;
+   height: 100%;
+}
+ div.contact ul{
+      padding:10px;
+     text-align: center;
+     height:100px;
+    }
+
+ div.contact li{ 
+     margin:10px;
+    }
+
+  div.right{
+         text-align: center;
+         margin-bottom:20px;
+         margin-right:10%;
+        }
+ div.info{ 
+         text-align: center;
+         margin-top:30px;
+        }
+ div.column h1{ 
+          padding: 10px;
+        }
+
+ }
+
+ @media  screen and (max-width:420px) {
+             
+div.name{
+     display:inline-block;
+     position:absolute;
+     top:2%;
+     margin:5px;
+    }        
+
+img {         
+     border-radius: 50%;
+     margin:5px;
+     width: 100px;
+     height: 100px;
+    }
+                           
+div .name h1{ 
+         font-size:24px;
+        }
+        
+ div.name h3{
+         font-size:17px;
+             color: gray;
+       }
+ div.name p{ 
+        font-size:13px;
+      padding-right:5px;
+     margin-bottom:10px;
+    }
+                              
+ div.contact{
+      margin-top:30px;
+    }
+    
+div.contact ul{
+     padding:10px;
+     text-align: center;
+     height:100%;
+    font-size:15px;
+                         }
+
+ @media screen and (max-width:400px) {
+
+div.name{
+        display:inline-block;
+        position:absolute;
+        top:5%;
+         bottom:3%;
+         margin:5px;}        
+                           
+img {         
+      border-radius: 50%;
+     margin:5px;
+     width: 80px;
+     height: 80px;
+    }
+  div .name h1{
+        font-size:20px;
+    }
+        
+ div.name h3{
+      font-size:10px;
+     color: gray;
+    }
+
+ div.name p{
+      font-size:5px;
+     padding-right:5px;
+    }
+div.contact ul{ 
+    margin-top:15px;
+         }
+                              }
+                              
+                              
+                
              /*
                .mt-0{
                 margin-top: 0;
